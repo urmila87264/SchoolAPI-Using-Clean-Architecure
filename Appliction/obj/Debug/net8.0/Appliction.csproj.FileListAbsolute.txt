@@ -1,0 +1,17 @@
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\Appliction.deps.json
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\Appliction.dll
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\Appliction.pdb
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\DBHelper.dll
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\Domain.dll
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\DBHelper.pdb
+D:\React\WebAPI\Appliction\bin\Debug\net8.0\Domain.pdb
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.csproj.AssemblyReference.cache
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.GeneratedMSBuildEditorConfig.editorconfig
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.AssemblyInfoInputs.cache
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.AssemblyInfo.cs
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.csproj.CoreCompileInputs.cache
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.csproj.Up2Date
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.dll
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\refint\Appliction.dll
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.pdb
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\ref\Appliction.dll

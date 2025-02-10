@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yZA/lb9IJ/H+niALQl5uGMXQfq8CRtXssigaV3qq6e0M6jTJtU7zULMcYe+7ysKNlomt52gRD/53CRv4eRsq+g==",
+  "success": true,
+  "projectFilePath": "D:\\React\\WebAPI\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0\\microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.0\\microsoft.aspnetcore.cryptography.keyderivation.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

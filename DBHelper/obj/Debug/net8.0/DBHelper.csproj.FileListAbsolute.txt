@@ -1,0 +1,12 @@
+D:\React\WebAPI\DBHelper\bin\Debug\net8.0\DBHelper.deps.json
+D:\React\WebAPI\DBHelper\bin\Debug\net8.0\DBHelper.dll
+D:\React\WebAPI\DBHelper\bin\Debug\net8.0\DBHelper.pdb
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.csproj.AssemblyReference.cache
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.AssemblyInfoInputs.cache
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.AssemblyInfo.cs
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.csproj.CoreCompileInputs.cache
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.dll
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\refint\DBHelper.dll
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.pdb
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\ref\DBHelper.dll
