@@ -15,7 +15,7 @@ namespace Domain.Authentication
         [Required]
         public string Password { get; set; }
         public int UserID { get; set; }
-        public string Role { get; set; }
+        public string RoleId { get; set; }
         //public bool IsSuccess { get; set; }
         //public string Message { get; set; }
     }

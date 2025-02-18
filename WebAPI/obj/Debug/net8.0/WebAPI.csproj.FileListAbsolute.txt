@@ -59,3 +59,12 @@ D:\React\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 D:\React\WebAPI\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
 D:\React\WebAPI\WebAPI\bin\Debug\net8.0\System.IO.Hashing.dll
 D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+D:\React\WebAPI\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\React\WebAPI\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

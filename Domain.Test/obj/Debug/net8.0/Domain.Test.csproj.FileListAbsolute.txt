@@ -108,3 +108,4 @@ D:\React\WebAPI\Domain.Test\obj\Debug\net8.0\refint\Domain.Test.dll
 D:\React\WebAPI\Domain.Test\obj\Debug\net8.0\Domain.Test.pdb
 D:\React\WebAPI\Domain.Test\obj\Debug\net8.0\Domain.Test.genruntimeconfig.cache
 D:\React\WebAPI\Domain.Test\obj\Debug\net8.0\ref\Domain.Test.dll
+D:\React\WebAPI\Domain.Test\obj\Debug\net8.0\Domain.Test.sourcelink.json

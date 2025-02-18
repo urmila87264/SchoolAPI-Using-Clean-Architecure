@@ -42,6 +42,7 @@ namespace Business
             new SqlParameter("@MotherName",user.motherName),
             new SqlParameter("@FatherName",user.fatherName),
             new SqlParameter("@Gender",user.gender),
+            new SqlParameter("@DOB",user.DOB),
               new SqlParameter("@IsSuccess", SqlDbType.Bit) { Direction = ParameterDirection.Output },
                 new SqlParameter("@Message", SqlDbType.NVarChar, 255) { Direction = ParameterDirection.Output }
             };

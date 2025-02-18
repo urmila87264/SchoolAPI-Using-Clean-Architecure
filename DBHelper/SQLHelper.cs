@@ -116,7 +116,13 @@ namespace DBHelper
             return ds;
         }
 
-       
+        //private string GenerateJwtToken(string username)
+        //{
+        //    var jwtSettings = _connectionString.GetSection();
+        //}
     }
+
+ 
+
 
 }

@@ -138,9 +138,21 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

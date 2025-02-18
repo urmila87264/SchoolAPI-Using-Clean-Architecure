@@ -19,10 +19,10 @@ namespace Application.Test.Sevices
         [Fact]
         public async void SignUpAsync_ShouldReturnTrue_WhenUserIsAddedSuccessfully()
         {
-            var testUser = new SignUp
+            var testUser = new Registration
             {
                 // Add necessary user properties for testing
-                Email = "u@gmail.com",
+                email = "u@gmail.com",
                 Password = "123"
             };
             // Setup the mock to return true for AddUserAsync
@@ -39,9 +39,9 @@ namespace Application.Test.Sevices
         }
         [Fact]
         public async void SignUpAsync_ShouldReturnFalse_WhenUserIsNotAdded() {
-            var testUser = new SignUp
+            var testUser = new Registration
             {
-                Email = "u@gmail.com",
+                email = "u@gmail.com",
                 Password = "123"
             };
            _userRepositoryMock.Setup(repo=>repo.AddUserAsync(testUser))

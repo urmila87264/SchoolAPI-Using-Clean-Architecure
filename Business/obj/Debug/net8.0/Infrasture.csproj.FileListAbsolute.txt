@@ -19,3 +19,4 @@ D:\React\WebAPI\Business\obj\Debug\net8.0\Infrasture.dll
 D:\React\WebAPI\Business\obj\Debug\net8.0\refint\Infrasture.dll
 D:\React\WebAPI\Business\obj\Debug\net8.0\Infrasture.pdb
 D:\React\WebAPI\Business\obj\Debug\net8.0\ref\Infrasture.dll
+D:\React\WebAPI\Business\obj\Debug\net8.0\Infrasture.sourcelink.json

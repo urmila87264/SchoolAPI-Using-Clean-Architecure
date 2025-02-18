@@ -1,17 +1,22 @@
-﻿using Appliction.Interfaces;
-using Appliction.Services;
-using Business;
+﻿using Business;
 using DBHelper;
-using Infrasture;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Infrastructure.JWT;
+using Domain.Common;
 using Appliction.Interfaces.Student;
+using Appliction.Interfaces;
+using Appliction.Services;
+using Infrasture;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// **1️⃣ Add Configuration to Read appsettings.json**
-builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+// **1️⃣ Load Configuration from appsettings.json**
+//builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 // **2️⃣ Retrieve Connection String**
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -30,7 +35,59 @@ builder.Services.AddScoped<ICourseService, CourseService>();
 
 builder.Services.AddScoped<IRolesRepository, RolesRepository>();
 builder.Services.AddScoped<IRolesService, RoleService>();
-// **5️⃣ Configure API Versioning**
+// Fix incorrect interface name and service name
+//builder.Services.AddScoped<IStateRepository, StateRepository>(); 
+//builder.Services.AddScoped<IStateService, StateService>();      
+builder.Services.AddSingleton<JWTToken>();
+
+// **5️⃣ Configure JWT Authentication**
+var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtSettings>();
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
+
+
+if (jwtSettings == null)
+{
+    throw new InvalidOperationException("JWT settings are missing in configuration.");
+}
+
+if (string.IsNullOrWhiteSpace(jwtSettings.Key))
+{
+    throw new InvalidOperationException("JWT Key is missing or empty.");
+}
+
+// Ensure the JWT key is properly formatted (Base64 or UTF-8)
+byte[] keyBytes;
+try
+{
+    keyBytes = Convert.FromBase64String(jwtSettings.Key);
+}
+catch (FormatException)
+{
+    keyBytes = Encoding.UTF8.GetBytes(jwtSettings.Key); // Fallback if it's not Base64 encoded
+}
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtSettings.Issuer,
+            ValidAudience = jwtSettings.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(keyBytes) // Properly formatted key
+        };
+    });
+//Configuring Authorization
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("UserPolicy", policy => policy.RequireRole("Teacher"));
+});
+
+// **6️⃣ Configure API Versioning**
 builder.Services.AddApiVersioning(options =>
 {
     options.AssumeDefaultVersionWhenUnspecified = true;
@@ -39,19 +96,19 @@ builder.Services.AddApiVersioning(options =>
     options.ApiVersionReader = new UrlSegmentApiVersionReader();
 });
 
-// **6️⃣ Configure CORS Policy**
+// **7️⃣ Configure CORS Policy**
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")  // Allow frontend
+        policy.WithOrigins("http://localhost:5174")  // Allow frontend
               .AllowAnyHeader()
               .AllowAnyMethod()
-              .AllowCredentials(); // Allow cookies/auth tokens if needed
+              .AllowCredentials();
     });
 });
 
-// **7️⃣ Configure Swagger**
+// **8️⃣ Configure Swagger**
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -69,10 +126,11 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// **8️⃣ Build the Application**
+// **9️⃣ Build the Application**
 var app = builder.Build();
 app.UseCors("AllowReactApp");
-// **9️⃣ Enable Middleware (CORS, Swagger, etc.)**
+
+// **🔟 Enable Middleware (CORS, Swagger, etc.)**
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -82,9 +140,6 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v2/swagger.json", "API V2");
     });
 }
-
-// ✅ CORS must be enabled before routing
-
 
 // ✅ Enable HTTPS Redirection
 app.UseHttpsRedirection();
@@ -96,5 +151,5 @@ app.UseAuthorization();
 // ✅ Map Controllers
 app.MapControllers();
 
-// **🔟 Run the Application**
+// **🏁 Run the Application**
 app.Run();

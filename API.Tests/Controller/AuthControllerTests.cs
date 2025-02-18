@@ -27,17 +27,17 @@ public class AuthControllerTests
         // Arrange
         var mockUserService = new Mock<IUserService>();
         mockUserService
-            .Setup(service => service.SignUpAsync(It.IsAny<SignUp>()))
+            .Setup(service => service.SignUpAsync(It.IsAny<Registration>()))
             .ReturnsAsync(true); // Simulate successful user registration
 
         var authController = new AuthController(mockUserService.Object);
 
-        var user = new SignUp
+        var user = new Registration
         {
-            UserName = "TestUser",
+            name = "TestUser",
             Password = "TestPassword",
             confirmPassword = "TestPassword",
-            Email = "test@example.com"
+            email = "test@example.com"
         };
 
         // Act
@@ -54,17 +54,17 @@ public class AuthControllerTests
         // Arrange
         var mockUserService = new Mock<IUserService>();
         mockUserService
-            .Setup(service => service.SignUpAsync(It.IsAny<SignUp>()))
+            .Setup(service => service.SignUpAsync(It.IsAny<Registration>()))
             .ReturnsAsync(false); // Simulate failed user registration
 
         var authController = new AuthController(mockUserService.Object);
 
-        var user = new SignUp
+        var user = new Registration
         {
-            UserName = "TestUser",
+            name = "TestUser",
             Password = "TestPassword",
             confirmPassword = "TestPassword",
-            Email = "test@example.com"
+            email = "test@example.com"
         };
 
         // Act

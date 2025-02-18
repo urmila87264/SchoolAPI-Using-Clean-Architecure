@@ -18,11 +18,11 @@ public class UserRepositoryTests
 
         var userRepository = new UserRepository(mockSqlHelper.Object);
 
-        var user = new SignUp
+        var user = new Registration
         {
-            UserName = "TestUser",
+            name = "TestUser",
             Password = "TestPassword",
-            Email = "test@example.com"
+            email = "test@example.com"
         };
 
         // Act
@@ -44,11 +44,11 @@ public class UserRepositoryTests
 
         var userRepository = new UserRepository(mockSqlHelper.Object);
 
-        var user = new SignUp
+        var user = new Registration
         {
-            UserName = "TestUser",
+            name = "TestUser",
             Password = "TestPassword",
-            Email = "test@example.com"
+            email = "test@example.com"
         };
 
         // Act

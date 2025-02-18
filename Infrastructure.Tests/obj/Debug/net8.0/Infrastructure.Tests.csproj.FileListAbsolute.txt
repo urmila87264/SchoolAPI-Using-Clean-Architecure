@@ -134,3 +134,9 @@ D:\React\WebAPI\Infrastructure.Tests\obj\Debug\net8.0\refint\Infrastructure.Test
 D:\React\WebAPI\Infrastructure.Tests\obj\Debug\net8.0\Infrastructure.Tests.pdb
 D:\React\WebAPI\Infrastructure.Tests\obj\Debug\net8.0\Infrastructure.Tests.genruntimeconfig.cache
 D:\React\WebAPI\Infrastructure.Tests\obj\Debug\net8.0\ref\Infrastructure.Tests.dll
+D:\React\WebAPI\Infrastructure.Tests\obj\Debug\net8.0\Infrastructure.Tests.sourcelink.json
+D:\React\WebAPI\Infrastructure.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\React\WebAPI\Infrastructure.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\React\WebAPI\Infrastructure.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\React\WebAPI\Infrastructure.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\React\WebAPI\Infrastructure.Tests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

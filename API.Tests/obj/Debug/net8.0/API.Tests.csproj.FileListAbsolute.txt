@@ -139,3 +139,4 @@ D:\React\WebAPI\API.Tests\obj\Debug\net8.0\API.Tests.genruntimeconfig.cache
 D:\React\WebAPI\API.Tests\obj\Debug\net8.0\ref\API.Tests.dll
 D:\React\WebAPI\API.Tests\bin\Debug\net8.0\System.IO.Hashing.dll
 D:\React\WebAPI\API.Tests\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+D:\React\WebAPI\API.Tests\obj\Debug\net8.0\API.Tests.sourcelink.json

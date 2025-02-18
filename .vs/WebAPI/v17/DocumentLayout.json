@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\React\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|d:\\react\\webapi\\business\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|solutionrelative:business\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94FC6F2B-C5F3-4947-909E-19B8AA6C26AE}|Domain\\Domain.csproj|d:\\react\\webapi\\domain\\authentication\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94FC6F2B-C5F3-4947-909E-19B8AA6C26AE}|Domain\\Domain.csproj|solutionrelative:domain\\authentication\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|d:\\react\\webapi\\appliction\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|solutionrelative:appliction\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|d:\\react\\webapi\\appliction\\procedure\\securityprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|solutionrelative:appliction\\procedure\\securityprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|d:\\react\\webapi\\business\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|solutionrelative:business\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|d:\\react\\webapi\\business\\jwt\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8141649-EEC9-4453-A567-CB2139F31ACD}|Business\\Infrasture.csproj|solutionrelative:business\\jwt\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|d:\\react\\webapi\\appliction\\interfaces\\common\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81A6461-EB38-41BB-93E3-12A868B9BC74}|Appliction\\Appliction.csproj|solutionrelative:appliction\\interfaces\\common\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|d:\\react\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D10718D7-350A-4BCA-8A5A-E2DF810481FD}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,87 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SecurityProcedure.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\Appliction\\Procedure\\SecurityProcedure.cs",
-              "RelativeDocumentMoniker": "Appliction\\Procedure\\SecurityProcedure.cs",
-              "ToolTip": "D:\\React\\WebAPI\\Appliction\\Procedure\\SecurityProcedure.cs",
-              "RelativeToolTip": "Appliction\\Procedure\\SecurityProcedure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T06:22:09.056Z"
+              "WhenOpened": "2025-02-18T10:59:39.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\TeachersController.cs",
+              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\TeachersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:58:39.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:56:28.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\Business\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Business\\LoginRepository.cs",
-              "ToolTip": "D:\\React\\WebAPI\\Business\\LoginRepository.cs",
-              "RelativeToolTip": "Business\\LoginRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\Appliction\\Interfaces\\Common\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "Appliction\\Interfaces\\Common\\IJwtTokenService.cs",
+              "ToolTip": "D:\\React\\WebAPI\\Appliction\\Interfaces\\Common\\IJwtTokenService.cs",
+              "RelativeToolTip": "Appliction\\Interfaces\\Common\\IJwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:53:39.202Z"
+              "WhenOpened": "2025-02-18T08:04:25.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\Appliction\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Appliction\\Services\\UserService.cs",
-              "ToolTip": "D:\\React\\WebAPI\\Appliction\\Services\\UserService.cs",
-              "RelativeToolTip": "Appliction\\Services\\UserService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBkAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:22:06.405Z"
+              "WhenOpened": "2025-02-16T04:02:05.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\Domain\\Authentication\\Registration.cs",
-              "RelativeDocumentMoniker": "Domain\\Authentication\\Registration.cs",
-              "ToolTip": "D:\\React\\WebAPI\\Domain\\Authentication\\Registration.cs",
-              "RelativeToolTip": "Domain\\Authentication\\Registration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T05:20:30.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAmwGMAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T04:55:17.828Z"
+              "WhenOpened": "2025-02-10T04:55:17.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAkwCwAAAAQAAAA",
+              "DocumentIndex": 5,
+              "Title": "JWTToken.cs",
+              "DocumentMoniker": "D:\\React\\WebAPI\\Business\\JWT\\JWTToken.cs",
+              "RelativeDocumentMoniker": "Business\\JWT\\JWTToken.cs",
+              "ToolTip": "D:\\React\\WebAPI\\Business\\JWT\\JWTToken.cs",
+              "RelativeToolTip": "Business\\JWT\\JWTToken.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAmwA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:43:15.56Z"
+              "WhenOpened": "2025-02-17T05:38:09.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\React\\WebAPI\\Business\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Business\\UserRepository.cs",
-              "ToolTip": "D:\\React\\WebAPI\\Business\\UserRepository.cs",
-              "RelativeToolTip": "Business\\UserRepository.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwDIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:49:09.493Z",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\React\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\React\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T05:34:44.156Z",
               "EditorCaption": ""
             }
           ]

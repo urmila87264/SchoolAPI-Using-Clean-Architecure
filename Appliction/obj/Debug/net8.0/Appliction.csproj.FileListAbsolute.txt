@@ -15,3 +15,4 @@ D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.dll
 D:\React\WebAPI\Appliction\obj\Debug\net8.0\refint\Appliction.dll
 D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.pdb
 D:\React\WebAPI\Appliction\obj\Debug\net8.0\ref\Appliction.dll
+D:\React\WebAPI\Appliction\obj\Debug\net8.0\Appliction.sourcelink.json

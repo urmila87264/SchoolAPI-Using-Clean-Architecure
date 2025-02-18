@@ -1,5 +1,6 @@
 ﻿using Appliction.Interfaces;
 using Domain.Authentication;
+using Infrastructure.JWT;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -11,10 +12,12 @@ namespace WebAPI.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly ILoginService _loginService;
+        private readonly JWTToken _jwtToken;
 
-        public AuthenticationController(ILoginService loginService)
+        public AuthenticationController(ILoginService loginService, JWTToken jwtToken)
         {
             _loginService = loginService ?? throw new ArgumentNullException(nameof(loginService));
+            _jwtToken = jwtToken ?? throw new ArgumentNullException(nameof(jwtToken));
         }
 
         [HttpPost("Login")]
@@ -36,23 +39,29 @@ namespace WebAPI.Controllers
                     return Unauthorized(new { Message = "Invalid email or password." });
                 }
 
+                // ✅ Generate JWT token
+                var token = _jwtToken.GenerateJwtToken(user);
+
                 return Ok(new
                 {
                     Message = "Login successful",
+                    Token = token,
                     User = new
                     {
-                        user.Email,
-                        user.Role // ✅ Avoid exposing sensitive data
+                        Email = user.Email,
+                        Role = user.RoleId,
+                        Password=user.Password,
+
                     }
                 });
             }
             catch (Exception ex)
             {
-                // ✅ Log error (Use ILogger in production)
+                // ✅ Log error (Consider using ILogger)
                 return StatusCode(500, new
                 {
                     Message = "An error occurred while processing the request.",
-                    Details = ex.Message
+                    Error = ex.Message
                 });
             }
         }

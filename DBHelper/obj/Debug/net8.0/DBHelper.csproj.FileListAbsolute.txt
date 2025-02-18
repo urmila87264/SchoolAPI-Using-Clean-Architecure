@@ -10,3 +10,4 @@ D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.dll
 D:\React\WebAPI\DBHelper\obj\Debug\net8.0\refint\DBHelper.dll
 D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.pdb
 D:\React\WebAPI\DBHelper\obj\Debug\net8.0\ref\DBHelper.dll
+D:\React\WebAPI\DBHelper\obj\Debug\net8.0\DBHelper.sourcelink.json

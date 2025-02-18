@@ -27,7 +27,7 @@ public class LoginRepository : ILoginRepository
             new SqlParameter("@IsSuccess", SqlDbType.Bit) { Direction = ParameterDirection.Output },
             new SqlParameter("@Message", SqlDbType.NVarChar, 255) { Direction = ParameterDirection.Output },
             new SqlParameter("@UserID", SqlDbType.Int) { Direction = ParameterDirection.Output },
-            new SqlParameter("@Role", SqlDbType.NVarChar, 20) { Direction = ParameterDirection.Output }
+            new SqlParameter("@RoleId", SqlDbType.NVarChar, 20) { Direction = ParameterDirection.Output }
         };
 
             // Execute stored procedure asynchronously
@@ -45,8 +45,9 @@ public class LoginRepository : ILoginRepository
                 return new Login
                 {
                     Email = username,
-                    UserID = userId
-                  //  Role = role
+                    UserID = userId,
+                    RoleId = role,
+                    Password = password
                 };//
             }
             else
@@ -62,4 +63,5 @@ public class LoginRepository : ILoginRepository
         }
     }
 
+    
 }
